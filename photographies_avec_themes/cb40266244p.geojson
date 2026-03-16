@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.273005,
+      48.730667
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Sainte-Marie-Madeleine",
+      "lieu_dit": "Massy-Verrières",
+      "ville": "Massy",
+      "departement": "Essonne",
+      "pays": "France"
+    },
+    "query": "Église Sainte-Marie-Madeleine, Massy, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88190917,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 70670614,
+      "lat": "48.7306669",
+      "lon": "2.2730051",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.1788097983674228,
+      "addresstype": "amenity",
+      "name": "Église Sainte-Marie-Madeleine",
+      "display_name": "Église Sainte-Marie-Madeleine, Place Victor Schœlcher, Atlantis, Massy, Palaiseau, Essonne, France métropolitaine, 91300, France",
+      "boundingbox": [
+        "48.7304964",
+        "48.7308408",
+        "2.2728660",
+        "2.2731442"
+      ]
+    },
+    "photo_id": "cb40266244p"
+  }
+}

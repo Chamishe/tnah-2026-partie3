@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.126689,
+      48.80354
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Porte Rue de l'Orangerie",
+      "voie": "Rue de l'Orangerie",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Versailles, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88262953,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 30295,
+      "lat": "48.8035403",
+      "lon": "2.1266886",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.668078415818538,
+      "addresstype": "town",
+      "name": "Versailles",
+      "display_name": "Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.7792385",
+        "48.8286153",
+        "2.0699384",
+        "2.1683504"
+      ]
+    },
+    "photo_id": "cb40265942p"
+  }
+}

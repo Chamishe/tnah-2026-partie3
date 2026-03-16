@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.320882,
+      48.869754
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôtel 8 Rue d'Anjou",
+      "adresse": "8 rue d'Anjou",
+      "voie": "rue d'Anjou",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Hôtel 8 Rue d'Anjou, 8 rue d'Anjou, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88047278,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 67252309,
+      "lat": "48.8697543",
+      "lon": "2.3208817",
+      "class": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "tourism",
+      "name": "Hôtel Marquis",
+      "display_name": "Hôtel Marquis, Rue d'Anjou, Quartier de la Madeleine, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8695238",
+        "48.8699553",
+        "2.3207235",
+        "2.3213931"
+      ]
+    },
+    "photo_id": "cb402669589"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.162048,
+      48.697007
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Mathieu",
+      "ville": "Bures-sur-Yvette",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Église Saint-Mathieu, Bures-sur-Yvette, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87589303,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 46763000,
+      "lat": "48.6970075",
+      "lon": "2.1620482",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.0894048991837114,
+      "addresstype": "amenity",
+      "name": "Église Saint-Mathieu",
+      "display_name": "Église Saint-Mathieu, Rue Charles de Gaulle, Bures Cottage, Bures-sur-Yvette, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91440, France",
+      "boundingbox": [
+        "48.6968891",
+        "48.6971266",
+        "2.1618737",
+        "2.1622080"
+      ]
+    },
+    "photo_id": "cb40266771z"
+  }
+}

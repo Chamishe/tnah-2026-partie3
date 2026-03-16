@@ -1,0 +1,41 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.134529,
+      48.701882
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "ville": "Gif-sur-Yvette",
+      "departement": "Essonne",
+      "pays": "France"
+    },
+    "query": "Gif-sur-Yvette, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88536649,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 53650,
+      "lat": "48.7018823",
+      "lon": "2.1345290",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5236170702338949,
+      "addresstype": "town",
+      "name": "Gif-sur-Yvette",
+      "display_name": "Gif-sur-Yvette, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91190, France",
+      "boundingbox": [
+        "48.6740284",
+        "48.7184219",
+        "2.0958688",
+        "2.1725309"
+      ]
+    },
+    "photo_id": "cb402661959"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.11934,
+      48.805364
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Bassin du Nord",
+      "lieu_dit": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Bassin du Nord, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 413563918,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 257712056,
+      "lat": "48.8053643",
+      "lon": "2.1193401",
+      "class": "water",
+      "type": "basin",
+      "place_rank": 22,
+      "importance": 0.10673873731593803,
+      "addresstype": "basin",
+      "name": "Bassin du Nord",
+      "display_name": "Bassin du Nord, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8051203",
+        "48.8056130",
+        "2.1187643",
+        "2.1199212"
+      ]
+    },
+    "photo_id": "cb40266006k"
+  }
+}

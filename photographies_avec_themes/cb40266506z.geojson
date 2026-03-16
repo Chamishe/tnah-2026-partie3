@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.341821,
+      48.886825
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Calvaire de Montmartre",
+      "quartier": "Montmartre",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Calvaire de Montmartre, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89350919,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 148522677,
+      "lat": "48.8868251",
+      "lon": "2.3418207",
+      "class": "amenity",
+      "type": "grave_yard",
+      "place_rank": 30,
+      "importance": 0.33155205287302,
+      "addresstype": "amenity",
+      "name": "Cimetière du Calvaire",
+      "display_name": "Cimetière du Calvaire, 2, Rue du Mont Cenis, Quartier de Clignancourt, Paris 18e Arrondissement, Paris, Île-de-France, France métropolitaine, 75018, France",
+      "boundingbox": [
+        "48.8867719",
+        "48.8869429",
+        "2.3415845",
+        "2.3421841"
+      ]
+    },
+    "photo_id": "cb40266506z"
+  }
+}

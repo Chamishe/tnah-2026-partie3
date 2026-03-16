@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.321366,
+      48.867622
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancien Hôtel de Crillon",
+      "adresse": "10 Place de la Concorde",
+      "voie": "Place de la Concorde",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "10 Place de la Concorde, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 89979108,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1060804,
+      "lat": "48.8676219",
+      "lon": "2.3213665",
+      "class": "historic",
+      "type": "manor",
+      "place_rank": 30,
+      "importance": 0.46747621576595166,
+      "addresstype": "historic",
+      "name": "Hôtel de Crillon",
+      "display_name": "Hôtel de Crillon, 10, Place de la Concorde, Quartier de la Madeleine, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8671941",
+        "48.8680342",
+        "2.3208831",
+        "2.3218082"
+      ]
+    },
+    "photo_id": "cb402669647"
+  }
+}

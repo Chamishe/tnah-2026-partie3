@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.324943,
+      48.860408
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancien couvent des Carmelites",
+      "adresse": "46 rue de la Légion d'Honneur",
+      "voie": "rue de la Légion d'Honneur",
+      "quartier": "Saint-Denis",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "46 rue de la Légion d'Honneur, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88832750,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 21123938,
+      "lat": "48.8604084",
+      "lon": "2.3249434",
+      "class": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053426505683985624,
+      "addresstype": "road",
+      "name": "Rue de la Légion d'Honneur",
+      "display_name": "Rue de la Légion d'Honneur, Quartier des Invalides, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8600394",
+        "48.8607790",
+        "2.3245743",
+        "2.3253111"
+      ]
+    },
+    "photo_id": "cb402659791"
+  }
+}

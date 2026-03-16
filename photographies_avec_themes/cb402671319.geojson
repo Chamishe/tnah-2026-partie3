@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.378531,
+      48.850718
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôpital Trousseau",
+      "adresse": "110 Faubourg Saint-Antoine",
+      "voie": "rue du Faubourg-Saint-Antoine",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "110 Faubourg Saint-Antoine, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88012850,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5434803821,
+      "lat": "48.8507175",
+      "lon": "2.3785310",
+      "class": "place",
+      "type": "suburb",
+      "place_rank": 19,
+      "importance": 0.41414327833327025,
+      "addresstype": "suburb",
+      "name": "Faubourg Saint-Antoine",
+      "display_name": "Faubourg Saint-Antoine, Paris, Île-de-France, France métropolitaine, 75011, France",
+      "boundingbox": [
+        "48.8307175",
+        "48.8707175",
+        "2.3585310",
+        "2.3985310"
+      ]
+    },
+    "photo_id": "cb402671319"
+  }
+}

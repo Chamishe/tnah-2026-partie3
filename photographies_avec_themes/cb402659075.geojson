@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      0.815651,
+      48.316119
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancienne Abbaye de Saint-Denis",
+      "ville": "Saint-Denis",
+      "département": "Seine-Saint-Denis",
+      "pays": "France"
+    },
+    "query": "Ancienne Abbaye de Saint-Denis, Saint-Denis, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87736124,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183135845,
+      "lat": "48.3161190",
+      "lon": "0.8156510",
+      "class": "building",
+      "type": "yes",
+      "place_rank": 30,
+      "importance": 0.5514096852164486,
+      "addresstype": "building",
+      "name": "Ancienne abbaye Saint-Denis",
+      "display_name": "Ancienne abbaye Saint-Denis, Rue Saint-Denis, Saint-Laurent, Nogent-le-Rotrou, Eure-et-Loir, Centre-Val de Loire, France métropolitaine, 28400, France",
+      "boundingbox": [
+        "48.3160600",
+        "48.3161750",
+        "0.8154270",
+        "0.8158740"
+      ]
+    },
+    "photo_id": "cb402659075"
+  }
+}

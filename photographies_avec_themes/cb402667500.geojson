@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.394009,
+      48.86113
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Père Lachaise",
+      "voie": "rue du Repos",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Père Lachaise, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 405586175,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 13859706,
+      "lat": "48.8611297",
+      "lon": "2.3940087",
+      "class": "landuse",
+      "type": "cemetery",
+      "place_rank": 24,
+      "importance": 0.6482465419838974,
+      "addresstype": "cemetery",
+      "name": "Cimetière du Père-Lachaise",
+      "display_name": "Cimetière du Père-Lachaise, 8, Paris, Île-de-France, France métropolitaine, 75020, France",
+      "boundingbox": [
+        "48.8575431",
+        "48.8647446",
+        "2.3878898",
+        "2.4004801"
+      ]
+    },
+    "photo_id": "cb402667500"
+  }
+}

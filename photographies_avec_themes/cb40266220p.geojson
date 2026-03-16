@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.270625,
+      48.630797
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Merry",
+      "ville": "Linas",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Église Saint-Merry, Linas, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88173078,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 146059365,
+      "lat": "48.6307968",
+      "lon": "2.2706255",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.19934751714046123,
+      "addresstype": "amenity",
+      "name": "Église Saint-Merry",
+      "display_name": "Église Saint-Merry, Rue Paul Bert, Monvinet, Saint-Eutrope, Linas, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91310, France",
+      "boundingbox": [
+        "48.6306724",
+        "48.6309241",
+        "2.2703400",
+        "2.2709051"
+      ]
+    },
+    "photo_id": "cb40266220p"
+  }
+}

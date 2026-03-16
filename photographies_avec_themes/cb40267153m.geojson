@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.320457,
+      48.854445
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ambassade d'Autriche",
+      "adresse": "Hôtel Matignon, rue de Varenne",
+      "voie": "rue de Varenne",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Hôtel Matignon, rue de Varenne, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88089182,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1076880,
+      "lat": "48.8544449",
+      "lon": "2.3204575",
+      "class": "office",
+      "type": "government",
+      "place_rank": 30,
+      "importance": 0.4997865360045999,
+      "addresstype": "office",
+      "name": "Hôtel de Matignon",
+      "display_name": "Hôtel de Matignon, Rue de Varenne, Quartier Saint-Thomas-d'Aquin, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8540735",
+        "48.8548052",
+        "2.3202061",
+        "2.3211159"
+      ]
+    },
+    "photo_id": "cb40267153m"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.333027,
+      48.858339
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôtel de Vaubecourt, Hôtel du Président Perrault",
+      "adresse": "7, 9 et 11 Quai Voltaire",
+      "voie": "Quai Voltaire",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Quai Voltaire, Paris, France",
+    "level": "voie",
+    "response": {
+      "place_id": 88741286,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 701119872,
+      "lat": "48.8583386",
+      "lon": "2.3330270",
+      "class": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.3869235073939477,
+      "addresstype": "road",
+      "name": "Quai Voltaire",
+      "display_name": "Quai Voltaire, Quartier de Saint-Germain-des-Prés, Paris 6e Arrondissement, Paris, Île-de-France, France métropolitaine, 75006, France",
+      "boundingbox": [
+        "48.8582658",
+        "48.8584113",
+        "2.3327875",
+        "2.3332665"
+      ]
+    },
+    "photo_id": "cb402671690"
+  }
+}

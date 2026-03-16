@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.384972,
+      48.687988
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "fontaine",
+      "voie": "Pont des Belles-Fontaines",
+      "ville": "Juvisy-sur-Orge",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "fontaine, Juvisy-sur-Orge, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88059509,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 148076286,
+      "lat": "48.6879878",
+      "lon": "2.3849720",
+      "class": "amenity",
+      "type": "school",
+      "place_rank": 30,
+      "importance": 5.952010376130339e-05,
+      "addresstype": "amenity",
+      "name": "École maternelle Jean de La Fontaine",
+      "display_name": "École maternelle Jean de La Fontaine, Rue Monttessuy, Juvisy-sur-Orge, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91260, France",
+      "boundingbox": [
+        "48.6878824",
+        "48.6881842",
+        "2.3848104",
+        "2.3851836"
+      ]
+    },
+    "photo_id": "cb402662095"
+  }
+}

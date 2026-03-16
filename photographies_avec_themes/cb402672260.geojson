@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.319844,
+      48.856819
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôtel d'Argenson",
+      "adresse": "101 rue de Grenelle",
+      "voie": "rue de Grenelle",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "101 rue de Grenelle, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88990981,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 913935760,
+      "lat": "48.8568185",
+      "lon": "2.3198441",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "101, Rue de Grenelle, Quartier des Invalides, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8567685",
+        "48.8568685",
+        "2.3197941",
+        "2.3198941"
+      ]
+    },
+    "photo_id": "cb402672260"
+  }
+}

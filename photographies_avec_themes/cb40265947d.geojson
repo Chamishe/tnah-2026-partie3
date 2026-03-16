@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.127612,
+      48.806608
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": null,
+      "adresse": "5 Place Hoche",
+      "voie": "Place Hoche",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "5 Place Hoche, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88741621,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 74626084,
+      "lat": "48.8066084",
+      "lon": "2.1276116",
+      "class": "building",
+      "type": "apartments",
+      "place_rank": 30,
+      "importance": 7.207064927133619e-05,
+      "addresstype": "building",
+      "name": "",
+      "display_name": "5, Place Hoche, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8064825",
+        "48.8067518",
+        "2.1274069",
+        "2.1280127"
+      ]
+    },
+    "photo_id": "cb40265947d"
+  }
+}

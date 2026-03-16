@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.367169,
+      48.868956
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Canal Saint-Martin",
+      "voie": "Canal Saint-Martin",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Canal Saint-Martin, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88620786,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1164565,
+      "lat": "48.8689561",
+      "lon": "2.3671691",
+      "class": "waterway",
+      "type": "canal",
+      "place_rank": 19,
+      "importance": 0.4959609451885724,
+      "addresstype": "canal",
+      "name": "Canal Saint-Martin",
+      "display_name": "Canal Saint-Martin, Paris, Île-de-France, France métropolitaine, France",
+      "boundingbox": [
+        "48.8462946",
+        "48.8919401",
+        "2.3631710",
+        "2.3862251"
+      ]
+    },
+    "photo_id": "cb40267084m"
+  }
+}

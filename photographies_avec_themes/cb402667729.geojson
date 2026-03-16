@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.575934,
+      48.694038
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ferme de l'ancien château",
+      "lieu-dit": "Bures",
+      "ville": "Bures",
+      "pays": "France"
+    },
+    "query": "Bures, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 110637834,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 2959848,
+      "lat": "48.6940375",
+      "lon": "6.5759342",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5704261467420689,
+      "addresstype": "village",
+      "name": "Bures",
+      "display_name": "Bures, Lunéville, Meurthe-et-Moselle, Grand Est, France métropolitaine, 54370, France",
+      "boundingbox": [
+        "48.6847320",
+        "48.7086997",
+        "6.5471211",
+        "6.5908585"
+      ]
+    },
+    "photo_id": "cb402667729"
+  }
+}

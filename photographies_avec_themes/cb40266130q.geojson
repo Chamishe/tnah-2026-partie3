@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.122232,
+      48.80869
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Bassin de Neptune",
+      "lieu": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Bassin de Neptune, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 428557382,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 196502843,
+      "lat": "48.8086904",
+      "lon": "2.1222321",
+      "class": "amenity",
+      "type": "fountain",
+      "place_rank": 30,
+      "importance": 0.22898814784265079,
+      "addresstype": "amenity",
+      "name": "Bassin de Neptune",
+      "display_name": "Bassin de Neptune, Allée d'Eau, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8081534",
+        "48.8092653",
+        "2.1212220",
+        "2.1234262"
+      ]
+    },
+    "photo_id": "cb40266130q"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.341652,
+      48.883245
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Théâtre Montmartre",
+      "adresse": "Place Dancourt",
+      "voie": "Place Charles-Dullin",
+      "quartier": "Montmartre",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Place Dancourt, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 89516905,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3623709097,
+      "lat": "48.8832447",
+      "lon": "2.3416521",
+      "class": "shop",
+      "type": "convenience",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "shop",
+      "name": "Super Market de la Place",
+      "display_name": "Super Market de la Place, Villa Dancourt, Quartier de Clignancourt, Paris 18e Arrondissement, Paris, Île-de-France, France métropolitaine, 75018, France",
+      "boundingbox": [
+        "48.8831947",
+        "48.8832947",
+        "2.3416021",
+        "2.3417021"
+      ]
+    },
+    "photo_id": "cb402665137"
+  }
+}

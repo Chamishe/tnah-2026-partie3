@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.135224,
+      48.702384
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Place de l'Église",
+      "édifice": "Église Saint-Rémi",
+      "ville": "Gif-sur-Yvette",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Place de l'Église, Gif-sur-Yvette, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87642597,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 122459532,
+      "lat": "48.7023838",
+      "lon": "2.1352237",
+      "class": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339267032883189,
+      "addresstype": "road",
+      "name": "Place de l'Église",
+      "display_name": "Place de l'Église, La Petite Coudraie, Gif-sur-Yvette, Palaiseau, Essonne, France métropolitaine, 91190, France",
+      "boundingbox": [
+        "48.7023356",
+        "48.7024294",
+        "2.1351527",
+        "2.1352943"
+      ]
+    },
+    "photo_id": "cb402661928"
+  }
+}

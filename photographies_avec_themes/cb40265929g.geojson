@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.10467,
+      48.815695
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Trianon sous Bois",
+      "batiment": "Petit Trianon",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Trianon sous Bois, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88869698,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 12426393,
+      "lat": "48.8156946",
+      "lon": "2.1046697",
+      "class": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 0.4628603110579102,
+      "addresstype": "tourism",
+      "name": "Trianon-sous-Bois",
+      "display_name": "Trianon-sous-Bois, Cour du Grand Trianon, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8153450",
+        "48.8159214",
+        "2.1042966",
+        "2.1049253"
+      ]
+    },
+    "photo_id": "cb40265929g"
+  }
+}

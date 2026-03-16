@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.12232,
+      48.807867
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Bosquet de l'Arc de Triomphe",
+      "lieu": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Bosquet de l'Arc de Triomphe, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88273187,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 51735037,
+      "lat": "48.8078672",
+      "lon": "2.1223198",
+      "class": "place",
+      "type": "locality",
+      "place_rank": 25,
+      "importance": 0.14170341258693808,
+      "addresstype": "locality",
+      "name": "Bosquet de l'Arc de Triomphe",
+      "display_name": "Bosquet de l'Arc de Triomphe, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8078613",
+        "48.8078731",
+        "2.1222993",
+        "2.1223403"
+      ]
+    },
+    "photo_id": "cb402661583"
+  }
+}

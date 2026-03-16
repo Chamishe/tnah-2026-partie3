@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.13777,
+      48.864297
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Marly la Machine",
+      "lieu_dit": "château de Bougival",
+      "ville": "Bougival",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Bougival, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88564562,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 413448,
+      "lat": "48.8642975",
+      "lon": "2.1377696",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.528051192448803,
+      "addresstype": "village",
+      "name": "Bougival",
+      "display_name": "Bougival, Versailles, Yvelines, Île-de-France, France métropolitaine, 78380, France",
+      "boundingbox": [
+        "48.8509221",
+        "48.8743848",
+        "2.1212839",
+        "2.1573627"
+      ]
+    },
+    "photo_id": "cb40266320z"
+  }
+}

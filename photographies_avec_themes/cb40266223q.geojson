@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.293573,
+      48.692878
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Martin",
+      "ville": "Longjumeau",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Église Saint-Martin, Longjumeau, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87934202,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 62513775,
+      "lat": "48.6928784",
+      "lon": "2.2935734",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.2101211695597586,
+      "addresstype": "amenity",
+      "name": "Église Saint-Martin-de-Tours",
+      "display_name": "Église Saint-Martin-de-Tours, Rue Saint-Martin, Résidence Villa Saint-Martin, Balizy, Longjumeau, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91160, France",
+      "boundingbox": [
+        "48.6927132",
+        "48.6930455",
+        "2.2932837",
+        "2.2939037"
+      ]
+    },
+    "photo_id": "cb40266223q"
+  }
+}

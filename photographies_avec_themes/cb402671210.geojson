@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.381607,
+      48.848083
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Fontaine de la Petite Halle",
+      "voie": "rue du Faubourg-Saint-Antoine",
+      "adresse": "184 rue du Faubourg-Saint-Antoine",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "184 rue du Faubourg-Saint-Antoine, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 87744723,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5924425917,
+      "lat": "48.8480830",
+      "lon": "2.3816075",
+      "class": "emergency",
+      "type": "emergency_ward_entrance",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "emergency",
+      "name": "Urgences",
+      "display_name": "Urgences, 184, Rue du Faubourg Saint-Antoine, Quartier des Quinze-Vingts, Paris 12e Arrondissement, Paris, Île-de-France, France métropolitaine, 75012, France",
+      "boundingbox": [
+        "48.8480330",
+        "48.8481330",
+        "2.3815575",
+        "2.3816575"
+      ]
+    },
+    "photo_id": "cb402671210"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.32638,
+      48.858768
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôtel d'Avejan et de Belzunce",
+      "adresse": "55 rue de Verneuil",
+      "voie": "rue de Verneuil",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "55 rue de Verneuil, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88684033,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1206658538,
+      "lat": "48.8587684",
+      "lon": "2.3263803",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "55, Rue de Verneuil, Quartier Saint-Thomas-d'Aquin, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8587184",
+        "48.8588184",
+        "2.3263303",
+        "2.3264303"
+      ]
+    },
+    "photo_id": "cb40267166z"
+  }
+}

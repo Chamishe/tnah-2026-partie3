@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.294478,
+      48.675212
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Jacques le Mineur et Saint-Philippe",
+      "ville": "Ballainvilliers",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Ballainvilliers, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88368249,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 33364,
+      "lat": "48.6752123",
+      "lon": "2.2944783",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5031801014943037,
+      "addresstype": "village",
+      "name": "Ballainvilliers",
+      "display_name": "Ballainvilliers, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91160, France",
+      "boundingbox": [
+        "48.6575980",
+        "48.6861287",
+        "2.2760884",
+        "2.3059800"
+      ]
+    },
+    "photo_id": "cb402667609"
+  }
+}

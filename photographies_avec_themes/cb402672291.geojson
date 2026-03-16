@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.319676,
+      48.85697
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôtel de Bourbon Busset",
+      "adresse": "118 rue de Grenelle",
+      "voie": "rue de Grenelle",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "118 rue de Grenelle, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88822360,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 913936512,
+      "lat": "48.8569696",
+      "lon": "2.3196763",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "118, Rue de Grenelle, Quartier des Invalides, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8569196",
+        "48.8570196",
+        "2.3196263",
+        "2.3197263"
+      ]
+    },
+    "photo_id": "cb402672291"
+  }
+}

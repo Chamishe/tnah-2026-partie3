@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.304886,
+      48.87549
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôpital Beaujon",
+      "adresse": "208 Faubourg Saint-Honoré",
+      "voie": "Faubourg Saint-Honoré",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Hôpital Beaujon, 208 Faubourg Saint-Honoré, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89131435,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 430869611,
+      "lat": "48.8754895",
+      "lon": "2.3048863",
+      "class": "building",
+      "type": "yes",
+      "place_rank": 30,
+      "importance": 0.3649233439058235,
+      "addresstype": "building",
+      "name": "Hôpital Beaujon",
+      "display_name": "Hôpital Beaujon, Rue Laure Diebold, Quartier du Faubourg-du-Roule, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8752162",
+        "48.8757733",
+        "2.3044533",
+        "2.3052974"
+      ]
+    },
+    "photo_id": "cb40266935n"
+  }
+}

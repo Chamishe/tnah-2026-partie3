@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.358067,
+      48.934221
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancien Couvent des Carmelites",
+      "adresse": "46 rue de la Légion d'Honneur",
+      "voie": "rue de la Légion d'Honneur",
+      "ville": "Saint-Denis",
+      "pays": "France"
+    },
+    "query": "46 rue de la Légion d'Honneur, Saint-Denis, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 89521883,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1047587528,
+      "lat": "48.9342208",
+      "lon": "2.3580669",
+      "class": "highway",
+      "type": "living_street",
+      "place_rank": 26,
+      "importance": 0.05340201190203704,
+      "addresstype": "road",
+      "name": "Rue de la Légion d'Honneur",
+      "display_name": "Rue de la Légion d'Honneur, Grand Centre Ville, Saint-Denis, Seine-Saint-Denis, Île-de-France, France métropolitaine, 93200, France",
+      "boundingbox": [
+        "48.9339716",
+        "48.9344700",
+        "2.3579658",
+        "2.3581679"
+      ]
+    },
+    "photo_id": "cb40265977b"
+  }
+}

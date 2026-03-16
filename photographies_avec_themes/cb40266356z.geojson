@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.168068,
+      48.763479
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Martin",
+      "voie": "rue",
+      "ville": "Jouy-en-Josas",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Église Saint-Martin, Jouy-en-Josas, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87949242,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 70427362,
+      "lat": "48.7634790",
+      "lon": "2.1680682",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.1701980914815837,
+      "addresstype": "amenity",
+      "name": "Église Saint-Martin",
+      "display_name": "Église Saint-Martin, Place de la Division Leclerc, Cottages de Montebello, Les Metz, Jouy-en-Josas, Versailles, Yvelines, Île-de-France, France métropolitaine, 78350, France",
+      "boundingbox": [
+        "48.7633507",
+        "48.7635913",
+        "2.1678329",
+        "2.1683272"
+      ]
+    },
+    "photo_id": "cb40266356z"
+  }
+}

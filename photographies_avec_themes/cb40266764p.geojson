@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.217659,
+      48.754382
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Martin",
+      "voie": "Église Saint-Martin",
+      "ville": "Bièvres",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Église Saint-Martin, Bièvres, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88709264,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 70453269,
+      "lat": "48.7543819",
+      "lon": "2.2176591",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.15464506754860552,
+      "addresstype": "amenity",
+      "name": "Église Saint-Martin",
+      "display_name": "Église Saint-Martin, Espace Aimée D. Steinlen, Le Hameau du Petit Bièvres, Bièvres, Palaiseau, Essonne, France métropolitaine, 91570, France",
+      "boundingbox": [
+        "48.7543032",
+        "48.7544787",
+        "2.2174399",
+        "2.2178613"
+      ]
+    },
+    "photo_id": "cb40266764p"
+  }
+}

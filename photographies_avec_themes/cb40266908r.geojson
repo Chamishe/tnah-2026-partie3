@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.312717,
+      48.703072
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Étienne",
+      "ville": "Chilly-Mazarin",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Église Saint-Étienne, Chilly-Mazarin, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89003034,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 161214118,
+      "lat": "48.7030725",
+      "lon": "2.3127168",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.18271960161957657,
+      "addresstype": "amenity",
+      "name": "Église Saint-Étienne",
+      "display_name": "Église Saint-Étienne, Place de l'Église, Résidence de la Libération, Les Berges, Chilly-Mazarin, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91380, France",
+      "boundingbox": [
+        "48.7029549",
+        "48.7031902",
+        "2.3124118",
+        "2.3129509"
+      ]
+    },
+    "photo_id": "cb40266908r"
+  }
+}

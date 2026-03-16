@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.130963,
+      48.801524
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Porte 6",
+      "adresse": "6 Avenue de Paris",
+      "voie": "Avenue de Paris",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "6 Avenue de Paris, Versailles, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88614980,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5839146629,
+      "lat": "48.8015242",
+      "lon": "2.1309633",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 7.207064927133619e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "6, Avenue de Paris, Chantiers, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8014742",
+        "48.8015742",
+        "2.1309133",
+        "2.1310133"
+      ]
+    },
+    "photo_id": "cb40265941b"
+  }
+}

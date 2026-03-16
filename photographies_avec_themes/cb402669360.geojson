@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.308092,
+      48.872979
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôtel de La Vaupalière - Aujourd'hui Baron Gérard",
+      "adresse": "85 Faubourg Saint-Honoré",
+      "voie": "rue du Faubourg Saint-Honoré",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "85 Faubourg Saint-Honoré, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 425084659,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5445287714,
+      "lat": "48.8729792",
+      "lon": "2.3080921",
+      "class": "place",
+      "type": "quarter",
+      "place_rank": 20,
+      "importance": 0.3250193457146212,
+      "addresstype": "quarter",
+      "name": "Faubourg Saint-Honoré",
+      "display_name": "Faubourg Saint-Honoré, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8629792",
+        "48.8829792",
+        "2.2980921",
+        "2.3180921"
+      ]
+    },
+    "photo_id": "cb402669360"
+  }
+}

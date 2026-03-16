@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      5.76504,
+      47.4782
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Pierre-d'Igny",
+      "lieu_dit": "clocher Roman",
+      "ville": "Igny",
+      "departement": "Essonne",
+      "pays": "France"
+    },
+    "query": "Igny, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 84432775,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 554673,
+      "lat": "47.4782000",
+      "lon": "5.7650400",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5596584085010929,
+      "addresstype": "village",
+      "name": "Igny",
+      "display_name": "Igny, Vesoul, Haute-Saône, Bourgogne-Franche-Comté, France métropolitaine, 70700, France",
+      "boundingbox": [
+        "47.4626623",
+        "47.4995341",
+        "5.7243092",
+        "5.7856312"
+      ]
+    },
+    "photo_id": "cb40266201d"
+  }
+}

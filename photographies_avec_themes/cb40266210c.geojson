@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.373809,
+      48.690406
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Fontaine des Belles-Fontaines",
+      "voie": "Pont des Belles-Fontaines",
+      "ville": "Juvisy-sur-Orge",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Juvisy-sur-Orge, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88524135,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 109434,
+      "lat": "48.6904063",
+      "lon": "2.3738090",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5339672307227727,
+      "addresstype": "town",
+      "name": "Juvisy-sur-Orge",
+      "display_name": "Juvisy-sur-Orge, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91260, France",
+      "boundingbox": [
+        "48.6836487",
+        "48.6998002",
+        "2.3544595",
+        "2.3899063"
+      ]
+    },
+    "photo_id": "cb40266210c"
+  }
+}

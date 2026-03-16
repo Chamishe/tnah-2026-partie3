@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.327162,
+      48.731248
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Denis",
+      "ville": "Wissous",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Église Saint-Denis, Wissous, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88457931,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 143437161,
+      "lat": "48.7312475",
+      "lon": "2.3271620",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.2292915155073439,
+      "addresstype": "amenity",
+      "name": "Église Saint-Denis",
+      "display_name": "Église Saint-Denis, Rue Victor Baloche, Le Colombier, Wissous, Palaiseau, Essonne, France métropolitaine, 91320, France",
+      "boundingbox": [
+        "48.7311100",
+        "48.7313837",
+        "2.3269305",
+        "2.3274182"
+      ]
+    },
+    "photo_id": "cb402663141"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.3919,
+      48.860899
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Monument aux morts",
+      "cimetière": "Père-Lachaise",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Monument aux morts, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87639453,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 311412497,
+      "lat": "48.8608989",
+      "lon": "2.3918995",
+      "class": "historic",
+      "type": "memorial",
+      "place_rank": 30,
+      "importance": 0.26922332516764147,
+      "addresstype": "historic",
+      "name": "Monument aux morts",
+      "display_name": "Monument aux morts, Avenue Principale, Quartier du Père-Lachaise, Paris 20e Arrondissement, Paris, Île-de-France, France métropolitaine, 75020, France",
+      "boundingbox": [
+        "48.8608512",
+        "48.8609615",
+        "2.3918489",
+        "2.3919638"
+      ]
+    },
+    "photo_id": "cb40266728t"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.39622,
+      48.83927
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancienne Fontaine du Château d'eau",
+      "adresse": "Place Daumesnil",
+      "voie": "Place Félix-Éboué",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Place Félix-Éboué, Paris, France",
+    "level": "voie",
+    "response": {
+      "place_id": 428606983,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1471932434,
+      "lat": "48.8392703",
+      "lon": "2.3962202",
+      "class": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053426505683985624,
+      "addresstype": "road",
+      "name": "Place Félix Éboué",
+      "display_name": "Place Félix Éboué, Quartier de Picpus, Paris 12e Arrondissement, Paris, Île-de-France, France métropolitaine, 75012, France",
+      "boundingbox": [
+        "48.8392080",
+        "48.8393401",
+        "2.3958241",
+        "2.3966166"
+      ]
+    },
+    "photo_id": "cb402671272"
+  }
+}

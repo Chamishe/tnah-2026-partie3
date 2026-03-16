@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      1.952394,
+      48.810388
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Parc du château",
+      "lieu": "Jardins du château",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Parc du château, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87266980,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 20215414,
+      "lat": "48.8103879",
+      "lon": "1.9523939",
+      "class": "landuse",
+      "type": "forest",
+      "place_rank": 24,
+      "importance": 0.08005975204089415,
+      "addresstype": "forest",
+      "name": "Parc du Château",
+      "display_name": "Parc du Château, Les Gâtines, Plaisir, Versailles, Yvelines, Île-de-France, France métropolitaine, 78370, France",
+      "boundingbox": [
+        "48.8074859",
+        "48.8133479",
+        "1.9446064",
+        "1.9568373"
+      ]
+    },
+    "photo_id": "cb40266168d"
+  }
+}

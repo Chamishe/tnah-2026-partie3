@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.272862,
+      48.635263
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "La Tour",
+      "lieu_dit": "Château de Montlhéry",
+      "ville": "Montlhéry",
+      "departement": "Essonne",
+      "pays": "France"
+    },
+    "query": "La Tour, Montlhéry, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87820672,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10785311210,
+      "lat": "48.6352634",
+      "lon": "2.2728624",
+      "class": "tourism",
+      "type": "information",
+      "place_rank": 30,
+      "importance": 5.784161135266678e-05,
+      "addresstype": "tourism",
+      "name": "La Tour",
+      "display_name": "La Tour, Allée de la Tour, Les Louis Blancs, La Motte, Montlhéry, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91310, France",
+      "boundingbox": [
+        "48.6352134",
+        "48.6353134",
+        "2.2728124",
+        "2.2729124"
+      ]
+    },
+    "photo_id": "cb40266249d"
+  }
+}

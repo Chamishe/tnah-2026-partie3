@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.329183,
+      48.857976
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôtel de Bouville",
+      "adresse": "13 et 15 rue de Verneuil",
+      "voie": "rue de Verneuil",
+      "arrondissement": "10ème arrondissement",
+      "ancienne_fonction": "ancienne mairie",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "13 et 15 rue de Verneuil, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88669492,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 59848726,
+      "lat": "48.8579756",
+      "lon": "2.3291830",
+      "class": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053426505683985624,
+      "addresstype": "road",
+      "name": "Rue de Verneuil",
+      "display_name": "Rue de Verneuil, Quartier Saint-Thomas-d'Aquin, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8570492",
+        "48.8588956",
+        "2.3260888",
+        "2.3322754"
+      ]
+    },
+    "photo_id": "cb40267165m"
+  }
+}

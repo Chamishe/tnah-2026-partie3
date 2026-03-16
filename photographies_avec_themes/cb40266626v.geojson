@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.340804,
+      48.886527
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Place du Tertre",
+      "voie": "Rue Norvins",
+      "quartier": "Montmartre",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Place du Tertre, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89199946,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23369825,
+      "lat": "48.8865274",
+      "lon": "2.3408043",
+      "class": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.4798572181567083,
+      "addresstype": "road",
+      "name": "Place du Tertre",
+      "display_name": "Place du Tertre, Quartier de Clignancourt, Paris 18e Arrondissement, Paris, Île-de-France, France métropolitaine, 75018, France",
+      "boundingbox": [
+        "48.8863005",
+        "48.8867757",
+        "2.3404741",
+        "2.3411148"
+      ]
+    },
+    "photo_id": "cb40266626v"
+  }
+}

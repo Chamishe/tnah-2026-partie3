@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.217201,
+      48.754455
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Place de l'Église",
+      "voie": "Place de l'Église",
+      "ville": "Bièvres",
+      "pays": "France"
+    },
+    "query": "Place de l'Église, Bièvres, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88773312,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 739549718,
+      "lat": "48.7544546",
+      "lon": "2.2172007",
+      "class": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06672577782864118,
+      "addresstype": "square",
+      "name": "Place de l'Église",
+      "display_name": "Place de l'Église, Le Hameau du Petit Bièvres, Bièvres, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91570, France",
+      "boundingbox": [
+        "48.7541904",
+        "48.7547218",
+        "2.2168667",
+        "2.2177546"
+      ]
+    },
+    "photo_id": "cb40266766c"
+  }
+}

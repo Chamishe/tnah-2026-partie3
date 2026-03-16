@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.111023,
+      48.807351
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Bassin",
+      "lieu_dit": "Coin de Parc",
+      "parc": "Parc du château de Versailles",
+      "château": "Château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Bassin, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 413563932,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 6356905,
+      "lat": "48.8073508",
+      "lon": "2.1110229",
+      "class": "water",
+      "type": "basin",
+      "place_rank": 22,
+      "importance": 0.2861574737770128,
+      "addresstype": "basin",
+      "name": "Bassin d'Apollon",
+      "display_name": "Bassin d'Apollon, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8068496",
+        "48.8078535",
+        "2.1101733",
+        "2.1112405"
+      ]
+    },
+    "photo_id": "cb40266051d"
+  }
+}

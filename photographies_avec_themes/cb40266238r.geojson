@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.29272,
+      48.642103
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Basilique Notre-Dame",
+      "lieu_dit": "Longpont-sur-Orge",
+      "departement": "Essonne",
+      "ville": "Longpont-sur-Orge",
+      "pays": "France"
+    },
+    "query": "Basilique Notre-Dame, Longpont-sur-Orge, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87845067,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 145982761,
+      "lat": "48.6421031",
+      "lon": "2.2927195",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.2432038182346074,
+      "addresstype": "amenity",
+      "name": "Basilique Notre-Dame-de-Bonne-Garde",
+      "display_name": "Basilique Notre-Dame-de-Bonne-Garde, Place des Combattants, Le Mesnil, Longpont-sur-Orge, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91310, France",
+      "boundingbox": [
+        "48.6419439",
+        "48.6422775",
+        "2.2922761",
+        "2.2931289"
+      ]
+    },
+    "photo_id": "cb40266238r"
+  }
+}

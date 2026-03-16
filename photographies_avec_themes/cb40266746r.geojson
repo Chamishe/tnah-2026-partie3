@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.404021,
+      48.860511
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Germain de Charonne",
+      "cimetière": "Cimetière de Charonne",
+      "quartier": "Charonne",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Église Saint-Germain de Charonne, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88663317,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 70147142,
+      "lat": "48.8605110",
+      "lon": "2.4040206",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.31298735030903774,
+      "addresstype": "amenity",
+      "name": "Église Saint-Germain-de-Charonne",
+      "display_name": "Église Saint-Germain-de-Charonne, Allée Principale, Quartier du Père-Lachaise, Paris 20e Arrondissement, Paris, Île-de-France, France métropolitaine, 75020, France",
+      "boundingbox": [
+        "48.8604045",
+        "48.8606188",
+        "2.4037857",
+        "2.4042916"
+      ]
+    },
+    "photo_id": "cb40266746r"
+  }
+}

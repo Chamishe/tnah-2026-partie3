@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.403081,
+      48.874537
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "emplacement du massacre des otages",
+      "adresse": "85 rue Haxo",
+      "voie": "rue Haxo",
+      "quartier": "Belleville",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "85 rue Haxo, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 89132258,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 836365434,
+      "lat": "48.8745368",
+      "lon": "2.4030813",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "85, Rue Haxo, Quartier Saint-Fargeau, Paris 20e Arrondissement, Paris, Île-de-France, France métropolitaine, 75020, France",
+      "boundingbox": [
+        "48.8744868",
+        "48.8745868",
+        "2.4030313",
+        "2.4031313"
+      ]
+    },
+    "photo_id": "cb40266679f"
+  }
+}

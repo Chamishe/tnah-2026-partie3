@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.121068,
+      48.806485
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Fontaine de la Pyramide",
+      "lieu_dit": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Fontaine de la Pyramide, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87694829,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 124531640,
+      "lat": "48.8064846",
+      "lon": "2.1210683",
+      "class": "amenity",
+      "type": "fountain",
+      "place_rank": 30,
+      "importance": 0.18640586217879376,
+      "addresstype": "amenity",
+      "name": "Le Bassin de la Pyramide",
+      "display_name": "Le Bassin de la Pyramide, Allée d'Eau, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8063935",
+        "48.8065756",
+        "2.1209301",
+        "2.1212066"
+      ]
+    },
+    "photo_id": "cb402661014"
+  }
+}

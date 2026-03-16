@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.342038,
+      48.88672
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Pierre de Montmartre",
+      "quartier": "Montmartre",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Église Saint-Pierre de Montmartre, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89213586,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23884336,
+      "lat": "48.8867203",
+      "lon": "2.3420378",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.4596974871743698,
+      "addresstype": "amenity",
+      "name": "Église Saint-Pierre de Montmartre",
+      "display_name": "Église Saint-Pierre de Montmartre, Rue du Cardinal Guibert, Quartier de Clignancourt, Paris 18e Arrondissement, Paris, Île-de-France, France métropolitaine, 75018, France",
+      "boundingbox": [
+        "48.8865739",
+        "48.8868660",
+        "2.3416924",
+        "2.3424366"
+      ]
+    },
+    "photo_id": "cb402665048"
+  }
+}

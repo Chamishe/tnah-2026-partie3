@@ -1,0 +1,41 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      1.399492,
+      49.690211
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "ville": "Massy",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Massy, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 91630606,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1552656,
+      "lat": "49.6902106",
+      "lon": "1.3994920",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5877478001734223,
+      "addresstype": "village",
+      "name": "Massy",
+      "display_name": "Massy, Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76270, France",
+      "boundingbox": [
+        "49.6685808",
+        "49.7080250",
+        "1.3584821",
+        "1.4270568"
+      ]
+    },
+    "photo_id": "cb402662482"
+  }
+}

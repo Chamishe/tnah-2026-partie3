@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.333736,
+      48.883214
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Cabaret du Ciel",
+      "adresse": "51 Boulevard de Clichy",
+      "voie": "Boulevard de Clichy",
+      "quartier": "Montmartre",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "51 Boulevard de Clichy, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88288512,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5932396758,
+      "lat": "48.8832136",
+      "lon": "2.3337364",
+      "class": "shop",
+      "type": "erotic",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "shop",
+      "name": "Fantasy",
+      "display_name": "Fantasy, 51, Boulevard de Clichy, Quartier Saint-Georges, Paris 9e Arrondissement, Paris, Île-de-France, France métropolitaine, 75009, France",
+      "boundingbox": [
+        "48.8831636",
+        "48.8832636",
+        "2.3336864",
+        "2.3337864"
+      ]
+    },
+    "photo_id": "cb402669527"
+  }
+}

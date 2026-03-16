@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.106337,
+      48.813936
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Grand Trianon",
+      "lieu": "Coin de Parc",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Grand Trianon, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88506189,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12234498084,
+      "lat": "48.8139357",
+      "lon": "2.1063369",
+      "class": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 7.207064927133619e-05,
+      "addresstype": "highway",
+      "name": "Grand Trianon",
+      "display_name": "Grand Trianon, Esplanade du Grand Trianon, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8138857",
+        "48.8139857",
+        "2.1062869",
+        "2.1063869"
+      ]
+    },
+    "photo_id": "cb402658950"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.405649,
+      48.861503
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hospice Debrousse",
+      "adresse": "148 rue de Bagnolet",
+      "voie": "rue de Bagnolet",
+      "ancien_toponyme": "Ancien parc de Philippe Égalité",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Hospice Debrousse, 148 rue de Bagnolet, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88956808,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6424019685,
+      "lat": "48.8615025",
+      "lon": "2.4056491",
+      "class": "amenity",
+      "type": "bicycle_rental",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "amenity",
+      "name": "Jardin de l'Hospice Debrousse",
+      "display_name": "Jardin de l'Hospice Debrousse, Rue de Bagnolet, Quartier de Charonne, Paris 20e Arrondissement, Paris, Île-de-France, France métropolitaine, 75020, France",
+      "boundingbox": [
+        "48.8614525",
+        "48.8615525",
+        "2.4055991",
+        "2.4056991"
+      ]
+    },
+    "photo_id": "cb40266755q"
+  }
+}

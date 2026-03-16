@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.36955,
+      48.88346
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancienne Barrière de Paris",
+      "lieu": "La Villette",
+      "voie": "Place de Stalingrad",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Ancienne Barrière de Paris, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 422292327,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 63971487,
+      "lat": "48.8834600",
+      "lon": "2.3695495",
+      "class": "building",
+      "type": "yes",
+      "place_rank": 30,
+      "importance": 0.3041636407631838,
+      "addresstype": "building",
+      "name": "Rotonde de la Villette",
+      "display_name": "Rotonde de la Villette, Place de la Bataille de Stalingrad, Quartier de la Villette, Paris 19e Arrondissement, Paris, Île-de-France, France métropolitaine, 75019, France",
+      "boundingbox": [
+        "48.8832788",
+        "48.8836479",
+        "2.3692678",
+        "2.3698235"
+      ]
+    },
+    "photo_id": "cb40266635t"
+  }
+}

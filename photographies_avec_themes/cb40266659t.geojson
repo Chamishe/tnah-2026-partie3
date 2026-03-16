@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.3711,
+      48.882392
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Canal de la Villette",
+      "voie": "quai Jemmapes",
+      "bassin": "Bassin de la Villette",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Canal de la Villette, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88635119,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1000411,
+      "lat": "48.8823919",
+      "lon": "2.3710998",
+      "class": "tourism",
+      "type": "hotel",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "tourism",
+      "name": "Hôtel Libertel Canal Saint-Martin",
+      "display_name": "Hôtel Libertel Canal Saint-Martin, Avenue Secrétan, Quartier de la Villette, Paris 19e Arrondissement, Paris, Île-de-France, France métropolitaine, 75019, France",
+      "boundingbox": [
+        "48.8822708",
+        "48.8825176",
+        "2.3709956",
+        "2.3713013"
+      ]
+    },
+    "photo_id": "cb40266659t"
+  }
+}

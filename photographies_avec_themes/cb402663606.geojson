@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.10682,
+      48.877957
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Louis",
+      "voie": "église",
+      "ville": "Le Port-Marly",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Église Saint-Louis, Le Port-Marly, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88839523,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 128926774,
+      "lat": "48.8779565",
+      "lon": "2.1068202",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.14170341258693808,
+      "addresstype": "amenity",
+      "name": "Église Saint-Louis",
+      "display_name": "Église Saint-Louis, 42, Rue de Versailles, Le Port-Marly, Saint-Germain-en-Laye, Yvelines, Île-de-France, France métropolitaine, 78560, France",
+      "boundingbox": [
+        "48.8778360",
+        "48.8780690",
+        "2.1066330",
+        "2.1069920"
+      ]
+    },
+    "photo_id": "cb402663606"
+  }
+}

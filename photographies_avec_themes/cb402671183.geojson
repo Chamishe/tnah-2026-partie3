@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.373734,
+      48.851999
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Fontaine Trogneux",
+      "voie": "rue du Faubourg-Saint-Antoine",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Fontaine Trogneux, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88740237,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 435298569,
+      "lat": "48.8519987",
+      "lon": "2.3737345",
+      "class": "amenity",
+      "type": "fountain",
+      "place_rank": 30,
+      "importance": 0.18640586217879376,
+      "addresstype": "amenity",
+      "name": "Fontaine Trogneux",
+      "display_name": "Fontaine Trogneux, Rue du Faubourg Saint-Antoine, Quartier de la Roquette, Paris 11e Arrondissement, Paris, Île-de-France, France métropolitaine, 75011, France",
+      "boundingbox": [
+        "48.8519751",
+        "48.8520194",
+        "2.3736936",
+        "2.3737737"
+      ]
+    },
+    "photo_id": "cb402671183"
+  }
+}

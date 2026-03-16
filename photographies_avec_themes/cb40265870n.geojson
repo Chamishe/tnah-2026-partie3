@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.12038,
+      48.800839
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Orangerie",
+      "site": "Château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Orangerie, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88375496,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5331168577,
+      "lat": "48.8008387",
+      "lon": "2.1203800",
+      "class": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 7.207064927133619e-05,
+      "addresstype": "highway",
+      "name": "Grille de l'Orangerie",
+      "display_name": "Grille de l'Orangerie, Rue de l'Orangerie, Saint-Louis, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8007887",
+        "48.8008887",
+        "2.1203300",
+        "2.1204300"
+      ]
+    },
+    "photo_id": "cb40265870n"
+  }
+}

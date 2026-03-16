@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.119017,
+      48.804854
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Bassin du Midi",
+      "lieu_dit": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Bassin du Midi, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 413730499,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 237843251,
+      "lat": "48.8048545",
+      "lon": "2.1190175",
+      "class": "water",
+      "type": "basin",
+      "place_rank": 22,
+      "importance": 0.10673873731593803,
+      "addresstype": "basin",
+      "name": "Bassin du Midi",
+      "display_name": "Bassin du Midi, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8046051",
+        "48.8050974",
+        "2.1184471",
+        "2.1195940"
+      ]
+    },
+    "photo_id": "cb402660146"
+  }
+}

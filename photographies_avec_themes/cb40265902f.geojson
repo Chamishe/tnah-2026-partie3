@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.468307,
+      48.819335
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "La Marne",
+      "cours_deau": "Marne",
+      "commune": "Bry-sur-Marne",
+      "departement": "Val-de-Marne",
+      "pays": "France"
+    },
+    "query": "La Marne, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88967270,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 932541470,
+      "lat": "48.8193349",
+      "lon": "2.4683066",
+      "class": "waterway",
+      "type": "river",
+      "place_rank": 19,
+      "importance": 0.14672208819714652,
+      "addresstype": "river",
+      "name": "La Marne",
+      "display_name": "La Marne, Île Fanac, Joinville-le-Pont, Nogent-sur-Marne, Val-de-Marne, Île-de-France, France métropolitaine, 94340, France",
+      "boundingbox": [
+        "48.8188246",
+        "48.8201713",
+        "2.4677984",
+        "2.4691676"
+      ]
+    },
+    "photo_id": "cb40265902f"
+  }
+}

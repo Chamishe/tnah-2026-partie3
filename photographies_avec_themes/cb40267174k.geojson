@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.333087,
+      48.858791
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Port des Saints-Pères",
+      "voie": "Quai Voltaire",
+      "pont": "Pont Royal",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Port des Saints-Pères, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88649578,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 200164068,
+      "lat": "48.8587913",
+      "lon": "2.3330869",
+      "class": "leisure",
+      "type": "marina",
+      "place_rank": 30,
+      "importance": 0.11734328469919902,
+      "addresstype": "leisure",
+      "name": "Port des Saints-Pères",
+      "display_name": "Port des Saints-Pères, Rue des Saints-Pères, Quartier de Saint-Germain-des-Prés, Paris 6e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8578857",
+        "48.8596947",
+        "2.3299080",
+        "2.3372597"
+      ]
+    },
+    "photo_id": "cb40267174k"
+  }
+}

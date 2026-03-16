@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.331967,
+      48.802462
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Denys",
+      "ville": "Arcueil",
+      "département": "Val-de-Marne",
+      "pays": "France"
+    },
+    "query": "Église Saint-Denys, Arcueil, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88401811,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 61312692,
+      "lat": "48.8024622",
+      "lon": "2.3319669",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.18271960161957657,
+      "addresstype": "amenity",
+      "name": "Église Saint-Denys",
+      "display_name": "Église Saint-Denys, Rue de l'Église, Arcueil, L'Haÿ-les-Roses, Val-de-Marne, Île-de-France, France métropolitaine, 94110, France",
+      "boundingbox": [
+        "48.8023374",
+        "48.8025866",
+        "2.3317092",
+        "2.3321957"
+      ]
+    },
+    "photo_id": "cb402658939"
+  }
+}

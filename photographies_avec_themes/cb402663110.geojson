@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.2869,
+      48.694901
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Saulx les Chartreux",
+      "voie": "coins (rues)",
+      "ville": "Saulx-les-Chartreux",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Saulx les Chartreux, Saulx-les-Chartreux, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87457898,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11836825177,
+      "lat": "48.6949011",
+      "lon": "2.2869001",
+      "class": "office",
+      "type": "government",
+      "place_rank": 30,
+      "importance": 6.0283054856138206e-05,
+      "addresstype": "office",
+      "name": "France Travail",
+      "display_name": "France Travail, D 118, Saulxier, Saulx-les-Chartreux, Palaiseau, Essonne, France métropolitaine, 91160, France",
+      "boundingbox": [
+        "48.6948511",
+        "48.6949511",
+        "2.2868501",
+        "2.2869501"
+      ]
+    },
+    "photo_id": "cb402663110"
+  }
+}

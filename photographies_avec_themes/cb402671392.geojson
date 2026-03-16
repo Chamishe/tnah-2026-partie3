@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.361558,
+      48.833385
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Cité Doré",
+      "adresse": "4 Place Pinel, Passage Doré",
+      "voie": "Place Pinel",
+      "quartier": "13e arrondissement",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Place Pinel, Paris, France",
+    "level": "voie",
+    "response": {
+      "place_id": 388498339,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 254822721,
+      "lat": "48.8333848",
+      "lon": "2.3615583",
+      "class": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.22274623325780465,
+      "addresstype": "road",
+      "name": "Place Pinel",
+      "display_name": "Place Pinel, Quartier de la Salpêtrière, Paris 13e Arrondissement, Paris, Île-de-France, France métropolitaine, 75013, France",
+      "boundingbox": [
+        "48.8332578",
+        "48.8335118",
+        "2.3613648",
+        "2.3617517"
+      ]
+    },
+    "photo_id": "cb402671392"
+  }
+}

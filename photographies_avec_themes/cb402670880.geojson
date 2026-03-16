@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.366624,
+      48.865004
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "adresse": "136 rue Amelot",
+      "voie": "rue Amelot",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "136 rue Amelot, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89019039,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 787325230,
+      "lat": "48.8650037",
+      "lon": "2.3666238",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "136, Rue Amelot, Quartier de la Folie-Méricourt, Paris 11e Arrondissement, Paris, Île-de-France, France métropolitaine, 75011, France",
+      "boundingbox": [
+        "48.8649537",
+        "48.8650537",
+        "2.3665738",
+        "2.3666738"
+      ]
+    },
+    "photo_id": "cb402670880"
+  }
+}

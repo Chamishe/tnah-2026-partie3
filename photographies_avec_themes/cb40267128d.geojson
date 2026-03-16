@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.39739,
+      48.842978
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "adresse": "53 rue de Picpus",
+      "voie": "rue de Picpus",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "53 rue de Picpus, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88445609,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1426494229,
+      "lat": "48.8429783",
+      "lon": "2.3973902",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "53, Rue de Picpus, Quartier de Picpus, Paris 12e Arrondissement, Paris, Île-de-France, France métropolitaine, 75012, France",
+      "boundingbox": [
+        "48.8429283",
+        "48.8430283",
+        "2.3973402",
+        "2.3974402"
+      ]
+    },
+    "photo_id": "cb40267128d"
+  }
+}

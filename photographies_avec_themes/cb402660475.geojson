@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.054823,
+      48.852215
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Le Parc",
+      "château": "Château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Le Parc, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 417377264,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 676097702,
+      "lat": "48.8522153",
+      "lon": "2.0548226",
+      "class": "place",
+      "type": "neighbourhood",
+      "place_rank": 20,
+      "importance": 0.1333921225299458,
+      "addresstype": "neighbourhood",
+      "name": "Le Parc",
+      "display_name": "Le Parc, Noisy-le-Roi, Versailles, Yvelines, Île-de-France, France métropolitaine, 78590, France",
+      "boundingbox": [
+        "48.8481667",
+        "48.8562861",
+        "2.0477566",
+        "2.0635501"
+      ]
+    },
+    "photo_id": "cb402660475"
+  }
+}

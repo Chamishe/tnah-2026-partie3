@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.369461,
+      48.884344
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Bassin de la Villette",
+      "voie": "Quai de la Loire",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Bassin de la Villette, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87921471,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2157840443,
+      "lat": "48.8843439",
+      "lon": "2.3694611",
+      "class": "railway",
+      "type": "subway_entrance",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "railway",
+      "name": "Bassin de la villette",
+      "display_name": "Bassin de la villette, Quai de la Seine, Quartier de la Villette, Paris 19e Arrondissement, Paris, Île-de-France, France métropolitaine, 75019, France",
+      "boundingbox": [
+        "48.8842939",
+        "48.8843939",
+        "2.3694111",
+        "2.3695111"
+      ]
+    },
+    "photo_id": "cb402666632"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.370306,
+      48.864897
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Marché Popincourt",
+      "quartier": "Popincourt",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Marché Popincourt, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 397021152,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12507761645,
+      "lat": "48.8648966",
+      "lon": "2.3703058",
+      "class": "amenity",
+      "type": "marketplace",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "amenity",
+      "name": "Marché Popincourt",
+      "display_name": "Marché Popincourt, Promenade Alain Devaquet, Quartier de la Folie-Méricourt, Paris 11e Arrondissement, Paris, Île-de-France, France métropolitaine, 75011, France",
+      "boundingbox": [
+        "48.8648466",
+        "48.8649466",
+        "2.3702558",
+        "2.3703558"
+      ]
+    },
+    "photo_id": "cb402671001"
+  }
+}

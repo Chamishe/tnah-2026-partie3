@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.31593,
+      48.861864
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Palais de la Légion d'honneur",
+      "adresse": "quai d'Orsay",
+      "voie": "quai d'Orsay",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "quai d'Orsay, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88684264,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 175448744,
+      "lat": "48.8618637",
+      "lon": "2.3159298",
+      "class": "office",
+      "type": "government",
+      "place_rank": 30,
+      "importance": 0.5450380358332815,
+      "addresstype": "office",
+      "name": "Ministère de l'Europe et des Affaires étrangères",
+      "display_name": "Ministère de l'Europe et des Affaires étrangères, Rue de l'Université, Quartier des Invalides, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8609650",
+        "48.8627469",
+        "2.3150962",
+        "2.3168595"
+      ]
+    },
+    "photo_id": "cb402671799"
+  }
+}

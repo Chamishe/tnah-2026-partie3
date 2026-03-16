@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.320423,
+      48.869145
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Palais de l'Élysée",
+      "adresse": "Ancien hôtel du Comte d'Évreux, 1718 Faubourg Saint-Honoré",
+      "voie": "rue du Faubourg Saint-Honoré",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "rue du Faubourg Saint-Honoré, Paris, France",
+    "level": "voie",
+    "response": {
+      "place_id": 88604368,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 448765970,
+      "lat": "48.8691449",
+      "lon": "2.3204234",
+      "class": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053426505683985624,
+      "addresstype": "road",
+      "name": "Rue du Faubourg Saint-Honoré",
+      "display_name": "Rue du Faubourg Saint-Honoré, Quartier de la Madeleine, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8687911",
+        "48.8696233",
+        "2.3190340",
+        "2.3218477"
+      ]
+    },
+    "photo_id": "cb40266953k"
+  }
+}

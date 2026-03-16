@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.109952,
+      48.814914
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Petit Trianon",
+      "château": "Château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Petit Trianon, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88828410,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12234498085,
+      "lat": "48.8149141",
+      "lon": "2.1099516",
+      "class": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 7.207064927133619e-05,
+      "addresstype": "highway",
+      "name": "Petit Trianon",
+      "display_name": "Petit Trianon, Esplanade du Petit Trianon, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8148641",
+        "48.8149641",
+        "2.1099016",
+        "2.1100016"
+      ]
+    },
+    "photo_id": "cb40265927s"
+  }
+}

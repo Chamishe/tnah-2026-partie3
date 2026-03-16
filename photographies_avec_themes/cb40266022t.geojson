@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.118168,
+      48.804668
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "fontaine du Point du jour",
+      "lieu": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "fontaine du Point du jour, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88454549,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1202778307,
+      "lat": "48.8046681",
+      "lon": "2.1181684",
+      "class": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.14170341258693808,
+      "addresstype": "water",
+      "name": "Fontaine du Point du jour",
+      "display_name": "Fontaine du Point du jour, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8045936",
+        "48.8047406",
+        "2.1180559",
+        "2.1183133"
+      ]
+    },
+    "photo_id": "cb40266022t"
+  }
+}

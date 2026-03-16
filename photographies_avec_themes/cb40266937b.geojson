@@ -1,0 +1,45 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.318244,
+      48.870028
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancien hôtel du Comte d'Evreux",
+      "toponyme_actuel": "Palais de l'Élysée",
+      "adresse": "55-57 rue du Faubourg Saint-Honoré",
+      "voie": "rue du Faubourg Saint-Honoré",
+      "arrondissement": "8e arrondissement",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "55-57 rue du Faubourg Saint-Honoré, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88646104,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1326360195,
+      "lat": "48.8700285",
+      "lon": "2.3182441",
+      "class": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053426505683985624,
+      "addresstype": "road",
+      "name": "Rue du Faubourg Saint-Honoré",
+      "display_name": "Rue du Faubourg Saint-Honoré, Quartier de la Madeleine, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8696233",
+        "48.8704592",
+        "2.3174674",
+        "2.3190340"
+      ]
+    },
+    "photo_id": "cb40266937b"
+  }
+}

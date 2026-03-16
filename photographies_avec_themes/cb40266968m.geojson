@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.322758,
+      48.873698
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Chapelle expiatoire",
+      "voie": "rue d'Anjou",
+      "lieu_dit": "Square Louis XVI",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Chapelle expiatoire, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89282069,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 67557301,
+      "lat": "48.8736982",
+      "lon": "2.3227584",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.44534677005030143,
+      "addresstype": "amenity",
+      "name": "Chapelle expiatoire",
+      "display_name": "Chapelle expiatoire, Rue d'Anjou, Quartier de la Madeleine, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8736158",
+        "48.8737742",
+        "2.3225894",
+        "2.3229316"
+      ]
+    },
+    "photo_id": "cb40266968m"
+  }
+}

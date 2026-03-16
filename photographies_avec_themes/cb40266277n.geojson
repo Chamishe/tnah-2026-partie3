@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.240332,
+      48.712549
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Martin",
+      "voie": "rue",
+      "ville": "Palaiseau",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Église Saint-Martin, Palaiseau, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88559855,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 71347036,
+      "lat": "48.7125487",
+      "lon": "2.2403321",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.19934751714046123,
+      "addresstype": "amenity",
+      "name": "Église Saint-Martin",
+      "display_name": "Église Saint-Martin, Boulevard Viala, Résidence de la Butte à la Reine, Centre, Palaiseau, Essonne, France métropolitaine, 91120, France",
+      "boundingbox": [
+        "48.7124033",
+        "48.7126907",
+        "2.2400479",
+        "2.2405872"
+      ]
+    },
+    "photo_id": "cb40266277n"
+  }
+}

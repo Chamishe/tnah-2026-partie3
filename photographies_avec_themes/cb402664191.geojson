@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      1.791707,
+      48.653284
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Parc de Rambouillet",
+      "ville": "Rambouillet",
+      "département": "Yvelines",
+      "région": "Île-de-France",
+      "pays": "France"
+    },
+    "query": "Parc de Rambouillet, Rambouillet, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87131068,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 830403058,
+      "lat": "48.6532835",
+      "lon": "1.7917070",
+      "class": "leisure",
+      "type": "park",
+      "place_rank": 24,
+      "importance": 0.08006313801785303,
+      "addresstype": "park",
+      "name": "Domaine de Rambouillet",
+      "display_name": "Domaine de Rambouillet, Rambouillet, Yvelines, Île-de-France, France métropolitaine, 78120, France",
+      "boundingbox": [
+        "48.6366115",
+        "48.6698844",
+        "1.7652353",
+        "1.8255570"
+      ]
+    },
+    "photo_id": "cb402664191"
+  }
+}

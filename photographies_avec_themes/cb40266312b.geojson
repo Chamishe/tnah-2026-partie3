@@ -1,0 +1,41 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.326867,
+      48.731638
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "ville": "Wissous",
+      "département": "Essonne",
+      "pays": "France"
+    },
+    "query": "Wissous, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88182749,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 395488,
+      "lat": "48.7316381",
+      "lon": "2.3268669",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.5090722686493223,
+      "addresstype": "village",
+      "name": "Wissous",
+      "display_name": "Wissous, Palaiseau, Essonne, Île-de-France, France métropolitaine, 91320, France",
+      "boundingbox": [
+        "48.7092953",
+        "48.7523709",
+        "2.3014995",
+        "2.3543077"
+      ]
+    },
+    "photo_id": "cb40266312b"
+  }
+}

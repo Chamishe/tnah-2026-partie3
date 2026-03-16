@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.504361,
+      48.83025
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "La Marne",
+      "voie": "cours d'eau de la Marne",
+      "ville": "Bry-sur-Marne",
+      "département": "Val-de-Marne",
+      "pays": "France"
+    },
+    "query": "La Marne, Bry-sur-Marne, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 94535602,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 71123910,
+      "lat": "48.8302496",
+      "lon": "2.5043606",
+      "class": "waterway",
+      "type": "river",
+      "place_rank": 19,
+      "importance": 0.1467266872663462,
+      "addresstype": "river",
+      "name": "La Marne",
+      "display_name": "La Marne, Bry-sur-Marne, Nogent-sur-Marne, Val-de-Marne, Île-de-France, France métropolitaine, 94360, France",
+      "boundingbox": [
+        "48.8297503",
+        "48.8307515",
+        "2.5039789",
+        "2.5047809"
+      ]
+    },
+    "photo_id": "cb40265896b"
+  }
+}

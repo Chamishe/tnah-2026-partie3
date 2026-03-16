@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.35643,
+      48.934185
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancienne maison de retraite",
+      "adresse": "Rue de la Boulangerie",
+      "voie": "Rue de la Boulangerie",
+      "ville": "Saint-Denis",
+      "departement": "Seine-Saint-Denis",
+      "pays": "France"
+    },
+    "query": "Rue de la Boulangerie, Saint-Denis, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88752103,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 109099081,
+      "lat": "48.9341851",
+      "lon": "2.3564301",
+      "class": "highway",
+      "type": "living_street",
+      "place_rank": 26,
+      "importance": 0.05340201190203704,
+      "addresstype": "road",
+      "name": "Rue de la Boulangerie",
+      "display_name": "Rue de la Boulangerie, Grand Centre Ville, Saint-Denis, Seine-Saint-Denis, Île-de-France, France métropolitaine, 93200, France",
+      "boundingbox": [
+        "48.9337265",
+        "48.9346476",
+        "2.3558497",
+        "2.3570075"
+      ]
+    },
+    "photo_id": "cb40265975n"
+  }
+}

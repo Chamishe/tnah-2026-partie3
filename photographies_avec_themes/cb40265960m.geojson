@@ -1,0 +1,42 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.382302,
+      48.956808
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Notre-Dame-de-l'Assomption",
+      "ville": "Stains",
+      "département": "Seine-Saint-Denis",
+      "pays": "France"
+    },
+    "query": "Église Notre-Dame-de-l'Assomption, Stains, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89668788,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 77630989,
+      "lat": "48.9568078",
+      "lon": "2.3823017",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.1746475799110849,
+      "addresstype": "amenity",
+      "name": "Église Notre-Dame-de-l'Assomption",
+      "display_name": "Église Notre-Dame-de-l'Assomption, Rue du Repos, Stains, Saint-Denis, Seine-Saint-Denis, Île-de-France, France métropolitaine, 93240, France",
+      "boundingbox": [
+        "48.9567272",
+        "48.9568893",
+        "2.3820717",
+        "2.3825213"
+      ]
+    },
+    "photo_id": "cb40265960m"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.277052,
+      47.19775
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Porte du château",
+      "batiment": "Château de Versailles",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Porte du château, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 266131241,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12017563917,
+      "lat": "47.1977501",
+      "lon": "-0.2770520",
+      "class": "place",
+      "type": "locality",
+      "place_rank": 25,
+      "importance": 0.06671713054093233,
+      "addresstype": "locality",
+      "name": "Porte du Chateau",
+      "display_name": "Porte du Chateau, Doué-La-Fontaine, Saint-Denis, Doué-la-Fontaine, Doué-en-Anjou, Saumur, Maine-et-Loire, Pays de la Loire, France métropolitaine, 49700, France",
+      "boundingbox": [
+        "47.1877501",
+        "47.2077501",
+        "-0.2870520",
+        "-0.2670520"
+      ]
+    },
+    "photo_id": "cb40266461t"
+  }
+}

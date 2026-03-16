@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.125867,
+      48.806713
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": null,
+      "adresse": "3 Rue Carnot",
+      "voie": "Rue Carnot",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "3 Rue Carnot, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88442510,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 74628017,
+      "lat": "48.8067125",
+      "lon": "2.1258672",
+      "class": "building",
+      "type": "apartments",
+      "place_rank": 30,
+      "importance": 7.207064927133619e-05,
+      "addresstype": "building",
+      "name": "",
+      "display_name": "3, Rue Carnot, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8066109",
+        "48.8068126",
+        "2.1257496",
+        "2.1261276"
+      ]
+    },
+    "photo_id": "cb40265948r"
+  }
+}

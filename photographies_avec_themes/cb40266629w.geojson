@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.359638,
+      48.897275
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Saint-Denis de la Chapelle",
+      "adresse": "96 rue de la Chapelle",
+      "voie": "rue de la Chapelle",
+      "quartier": "La Chapelle",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "96 rue de la Chapelle, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88915581,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1979573253,
+      "lat": "48.8972751",
+      "lon": "2.3596378",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "96, Rue de la Chapelle, Quartier de la Chapelle, Paris 18e Arrondissement, Paris, Île-de-France, France métropolitaine, 75018, France",
+      "boundingbox": [
+        "48.8972251",
+        "48.8973251",
+        "2.3595878",
+        "2.3596878"
+      ]
+    },
+    "photo_id": "cb40266629w"
+  }
+}

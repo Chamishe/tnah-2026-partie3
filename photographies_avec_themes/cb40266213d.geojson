@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.371271,
+      48.692465
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Château de Juvisy",
+      "ville": "Juvisy-sur-Orge",
+      "département": "Essonne",
+      "région": "Île-de-France",
+      "pays": "France"
+    },
+    "query": "Château de Juvisy, Juvisy-sur-Orge, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88712394,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 148075742,
+      "lat": "48.6924647",
+      "lon": "2.3712713",
+      "class": "building",
+      "type": "yes",
+      "place_rank": 30,
+      "importance": 5.952010376130339e-05,
+      "addresstype": "building",
+      "name": "Château de la Cour de France",
+      "display_name": "Château de la Cour de France, Rue de l'Observatoire, Juvisy-sur-Orge, Palaiseau, Essonne, France métropolitaine, 91260, France",
+      "boundingbox": [
+        "48.6922630",
+        "48.6926646",
+        "2.3710659",
+        "2.3713950"
+      ]
+    },
+    "photo_id": "cb40266213d"
+  }
+}

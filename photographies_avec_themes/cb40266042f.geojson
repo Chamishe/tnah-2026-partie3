@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.117695,
+      48.805496
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Bassin de Latone",
+      "lieu": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Bassin de Latone, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88569807,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 13645589,
+      "lat": "48.8054965",
+      "lon": "2.1176946",
+      "class": "amenity",
+      "type": "fountain",
+      "place_rank": 30,
+      "importance": 0.2636224323479305,
+      "addresstype": "amenity",
+      "name": "Bassin de Latone",
+      "display_name": "Bassin de Latone, Parterre Latone, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8053307",
+        "48.8056696",
+        "2.1174991",
+        "2.1178947"
+      ]
+    },
+    "photo_id": "cb40266042f"
+  }
+}

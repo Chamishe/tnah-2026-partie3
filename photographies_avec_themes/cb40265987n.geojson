@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.119216,
+      48.805094
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Parterre d'eau",
+      "lieu_dit": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Parterre d'eau, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88462258,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 12446402,
+      "lat": "48.8050938",
+      "lon": "2.1192160",
+      "class": "place",
+      "type": "locality",
+      "place_rank": 25,
+      "importance": 0.46408040046101373,
+      "addresstype": "locality",
+      "name": "Parterre d'Eau",
+      "display_name": "Parterre d'Eau, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8044144",
+        "48.8057530",
+        "2.1182155",
+        "2.1201660"
+      ]
+    },
+    "photo_id": "cb40265987n"
+  }
+}

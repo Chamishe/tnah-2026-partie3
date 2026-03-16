@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.26921,
+      48.692625
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Église Notre-Dame de l'Assomption",
+      "lieu-dit": "Saulx-les-Chartreux",
+      "département": "Essonne",
+      "ville": "Saulx-les-Chartreux",
+      "pays": "France"
+    },
+    "query": "Église Notre-Dame de l'Assomption, Saulx-les-Chartreux, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88140806,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 62510836,
+      "lat": "48.6926251",
+      "lon": "2.2692098",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.1654187199679029,
+      "addresstype": "amenity",
+      "name": "Église Notre-Dame-de-l'Assomption",
+      "display_name": "Église Notre-Dame-de-l'Assomption, Place de l'Église, Saulx-les-Chartreux, Palaiseau, Essonne, France métropolitaine, 91160, France",
+      "boundingbox": [
+        "48.6924798",
+        "48.6927709",
+        "2.2689797",
+        "2.2694669"
+      ]
+    },
+    "photo_id": "cb40266279b"
+  }
+}

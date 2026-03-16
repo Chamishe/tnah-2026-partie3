@@ -1,0 +1,44 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.32081,
+      48.869987
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Hôtel du Maréchal de Contades",
+      "adresse": "11 Rue d'Anjou",
+      "voie": "Rue d'Anjou",
+      "ville": "Paris",
+      "arrondissement": "8e arrondissement",
+      "pays": "France"
+    },
+    "query": "11 Rue d'Anjou, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 89211828,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 841987729,
+      "lat": "48.8699871",
+      "lon": "2.3208103",
+      "class": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 9.317235065227768e-05,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "11, Rue d'Anjou, Quartier de la Madeleine, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8699371",
+        "48.8700371",
+        "2.3207603",
+        "2.3208603"
+      ]
+    },
+    "photo_id": "cb40266959n"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.313756,
+      48.872374
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Maison de Benjamin Franklin",
+      "adresse": "26 rue de Penthièvre",
+      "voie": "rue de Penthièvre",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "26 rue de Penthièvre, Paris, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 88946777,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 4942434,
+      "lat": "48.8723744",
+      "lon": "2.3137556",
+      "class": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053426505683985624,
+      "addresstype": "road",
+      "name": "Rue de Penthièvre",
+      "display_name": "Rue de Penthièvre, Quartier de la Madeleine, Paris 8e Arrondissement, Paris, Île-de-France, France métropolitaine, 75008, France",
+      "boundingbox": [
+        "48.8721564",
+        "48.8725947",
+        "2.3127813",
+        "2.3147294"
+      ]
+    },
+    "photo_id": "cb40266981t"
+  }
+}

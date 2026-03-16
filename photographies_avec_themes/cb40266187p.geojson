@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.120285,
+      48.804425
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Château de Versailles",
+      "jardins": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "Château de Versailles, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 87524471,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1149002,
+      "lat": "48.8044252",
+      "lon": "2.1202853",
+      "class": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 0.6482761585865329,
+      "addresstype": "tourism",
+      "name": "Château de Versailles",
+      "display_name": "Château de Versailles, Rue Pierre de Nolhac, Saint-Louis, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8025850",
+        "48.8062641",
+        "2.1199770",
+        "2.1231750"
+      ]
+    },
+    "photo_id": "cb40266187p"
+  }
+}

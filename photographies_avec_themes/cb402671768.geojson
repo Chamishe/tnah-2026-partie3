@@ -1,0 +1,41 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.317909,
+      48.861596
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Palais Bourbon",
+      "ville": "Paris",
+      "pays": "France"
+    },
+    "query": "Palais Bourbon, Paris, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 89348229,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1019368,
+      "lat": "48.8615962",
+      "lon": "2.3179093",
+      "class": "office",
+      "type": "government",
+      "place_rank": 30,
+      "importance": 0.5240130145255819,
+      "addresstype": "office",
+      "name": "Palais Bourbon",
+      "display_name": "Palais Bourbon, Rue Aristide Briand, Quartier des Invalides, Paris 7e Arrondissement, Paris, Île-de-France, France métropolitaine, 75007, France",
+      "boundingbox": [
+        "48.8608072",
+        "48.8624031",
+        "2.3171353",
+        "2.3193674"
+      ]
+    },
+    "photo_id": "cb402671768"
+  }
+}

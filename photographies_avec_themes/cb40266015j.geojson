@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.118914,
+      48.805896
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "fontaine de Diane",
+      "lieu": "Jardins du château de Versailles",
+      "ville": "Versailles",
+      "département": "Yvelines",
+      "pays": "France"
+    },
+    "query": "fontaine de Diane, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 91864512,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 92619297,
+      "lat": "48.8058962",
+      "lon": "2.1189136",
+      "class": "natural",
+      "type": "water",
+      "place_rank": 22,
+      "importance": 0.10673873731593803,
+      "addresstype": "water",
+      "name": "Fontaine du Soir",
+      "display_name": "Fontaine du Soir, Notre-Dame, Versailles, Yvelines, Île-de-France, France métropolitaine, 78000, France",
+      "boundingbox": [
+        "48.8058218",
+        "48.8059688",
+        "2.1188011",
+        "2.1190585"
+      ]
+    },
+    "photo_id": "cb40266015j"
+  }
+}

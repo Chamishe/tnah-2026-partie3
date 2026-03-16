@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.153709,
+      48.863757
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "L'Orangerie",
+      "batiment": "Château de Versailles",
+      "ville": "Versailles",
+      "departement": "Yvelines",
+      "pays": "France"
+    },
+    "query": "L'Orangerie, Versailles, France",
+    "level": "toponyme",
+    "response": {
+      "place_id": 88608620,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 430940187,
+      "lat": "48.8637573",
+      "lon": "2.1537087",
+      "class": "building",
+      "type": "apartments",
+      "place_rank": 30,
+      "importance": 6.155260547794335e-05,
+      "addresstype": "building",
+      "name": "L'Orangerie",
+      "display_name": "L'Orangerie, Côte de la Jonchère, Village Jonchère-Malmaison-Saint-Cucufa, La Celle-Saint-Cloud, Versailles, Yvelines, Île-de-France, France métropolitaine, 92500, France",
+      "boundingbox": [
+        "48.8636393",
+        "48.8638759",
+        "2.1535325",
+        "2.1538841"
+      ]
+    },
+    "photo_id": "cb40265869f"
+  }
+}

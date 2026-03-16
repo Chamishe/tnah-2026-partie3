@@ -1,0 +1,43 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2.362751,
+      48.938373
+    ]
+  },
+  "properties": {
+    "extraction": {
+      "toponyme": "Ancienne maison de retraite",
+      "lieu_dit": "cave",
+      "ville": "Saint-Denis",
+      "departement": "Seine-Saint-Denis",
+      "pays": "France"
+    },
+    "query": "Saint-Denis, France",
+    "level": "adresse",
+    "response": {
+      "place_id": 395465530,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 18476624,
+      "lat": "48.9383732",
+      "lon": "2.3627508",
+      "class": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.6449491326892864,
+      "addresstype": "city",
+      "name": "Saint-Denis",
+      "display_name": "Saint-Denis, Seine-Saint-Denis, Île-de-France, France métropolitaine, France",
+      "boundingbox": [
+        "48.9014901",
+        "48.9740606",
+        "2.3332192",
+        "2.3981181"
+      ]
+    },
+    "photo_id": "cb402659718"
+  }
+}
