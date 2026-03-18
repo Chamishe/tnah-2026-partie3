@@ -9,18 +9,25 @@ from geopy.location import Location
 # En effet, Nominatim **bannit** les usagers qui "spamment" le géocodeur
 from geopy.extra.rate_limiter import RateLimiter
 
-
+# ---
 # --- Variables globales
+# ---
 
 DIR = Path(__file__).parent / "photographies_avec_themes"
 json_files = list(DIR.glob("*.json"))
 
+# ---
 # --- Initialisation du géocodeur
+# ---
+
 #Le constructeur Nominatim() instancie une représentation du géocodeur Nominatim. Il a le paramètre obligatoire "user-agent" qui est une chaine de caractère qui nous identifie auprès de l'API
 geocoder = Nominatim(user_agent="tnah-équipe-2") 
 limited_geocoder = RateLimiter(geocoder.geocode, min_delay_seconds=5) #Les requêtes envoyées sont séparées d'au moins 5 secondes.
 
+# ---
 # --- Fonctions
+# ---
+
 def read_json_file(file_path: Path) -> dict:
     """Lit un fichier JSON et retourne son contenu sous forme de dictionnaire."""
     with open(file_path, "r") as file:
@@ -55,7 +62,6 @@ def build_geocoding_query(data: dict, level: str) -> str:
 
     if level not in values:
         return ""
-
     if level == "pays":
         query = [values["pays"]]
     elif level == "ville":
@@ -75,32 +81,33 @@ def build_geocoding_query(data: dict, level: str) -> str:
     print(f"[{level}] 🔍 Query : {query}")
     return query
 
-    #query = "..."
-
-    #print(f"[{level}] 🔍 Query : {query}")
-    #return query
-
 def geocode(query: str):
     """Exécute le géocodage de la requête et retourne le résultat."""
     print(f"📍 Geocoding : {query}") 
     location = limited_geocoder(query) #Stocke le résultat. limited_geocode geocode la requête donnée en paramètre. 
     return location
 
-"""Création d'une feature"""
+# NB : Une feature GeoJSON est un objet standardisé qui combine une géométrie (ici une point) et des propriétés (métadonnées) associées. 
 def create_geojson_feature(location: Location, properties: dict) -> geojson.Feature:
-    point = geojson.Point((location.longitude, location.latitude))
-    feature = geojson.Feature(geometry=point, properties=properties)
-    return feature
+    """Création d'une feature"""
+    point = geojson.Point((location.longitude, location.latitude)) # On stocke dans point : un tuple contenant la longitude et la latitude de l'objet "location" afin de créer des ponits géographiques.
+    feature = geojson.Feature(geometry=point, properties=properties) # Avec geometry on associe le "point" crée précédemment avec le dictionnaire "properties"
+    return feature # Ici on a une géométrie et des propriétés. 
 
-"""Sauvegarde d'une feature dans un fichier GeoJson"""
 def save_geocoding(feature: geojson.Feature, input_json_file: Path) -> None:
+    """Sauvegarde d'une feature dans un fichier GeoJson"""
     output_file = input_json_file.with_suffix(".geojson")
     with open(output_file, "w") as file:
-        geojson.dump(feature, file, indent=2, ensure_ascii=False)
+        geojson.dump(feature, file, indent=2, ensure_ascii=False) # geojson.dump convertit l'objet feature en une chaine de caractère au format geojson et l'écrit dans le fichier "file". On ajoute une indentation de 2 pour la lisibilité. 
     print(f"📁 Saved: {output_file}")
 
-# -- Traitement principal
+    # NB : With : Gestion automatique des ressources : Quand vous ouvrez un fichier avec open(), il est important de le fermer après utilisation pour libérer les ressources système. with s'en charge pour vous : le fichier est automatiquement fermé à la fin du bloc, même si une exception est levée.
+    # Cela évite les oublis : Sans with, vous devriez écrire f.close() manuellement, ce qui peut être oublié, surtout en cas d'erreur.
+    # Cela réduit le risque de fuites de ressources (comme des fichiers ouverts en mémoire).
 
+# ---
+# -- Traitement principal
+# ---
 
 def main():
 
@@ -146,11 +153,11 @@ def main():
                 else : # s'il n'y a pas de résultats, indique l'échec
                     print(f"[{level}] ❌")
 
-    # le code ci-dessous crée un fichier débug additionnant toutes les features
-    debug_geojson_file = Path("debug_geocoding_results.geojson")
-    feature_collection = geojson.FeatureCollection(features)
+    # le code ci-dessous crée un fichier débug additionnant toutes les features. Cela permet d'enregistrer les données de géocodage pendant le developpement ou le débogage, afin de vérifier visuellement ou manuellement les résultats. On sauvegarde les données intermédiaires afin de vérifier que chaque étape du programme produit les résultats attendus. 
+    debug_geojson_file = Path("debug_geocoding_results.geojson") # Définit le fichier vers lequel le débogage sera écrit. 
+    feature_collection = geojson.FeatureCollection(features) # FeatureCollection est un objet geoJson qui regroupe plusieurs "features" en un seul document. 
     with open(debug_geojson_file, "w") as file:
-        geojson.dump(feature_collection, file, indent=2, ensure_ascii=False)
+        geojson.dump(feature_collection, file, indent=2, ensure_ascii=False) #Ecrit dans le fichier
     print(f"📁 Saved on disk: {debug_geojson_file}")
 
 if __name__ == "__main__":

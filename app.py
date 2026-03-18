@@ -1,4 +1,6 @@
+# ---
 # --- IMPORTS
+# ---
 
 import json
 from pathlib import Path
@@ -37,15 +39,29 @@ def get_triple_value(graph: Graph, subject: Node, predicate: Node) -> str:
 
 def get_rameau_subjects(graph: Graph, manifestation: Node) -> list[dict[str, str]]:
     """Extrait la liste des sujets Rameau associés à une manifestation."""
-    sujets = []
-    for s in graph.objects(manifestation, DCTERMS.subject):
-        label = graph.value(s, SKOS.prefLabel)
-        sujets.append({"label": str(label), "uri": str(s)})
-    return sujets
+    sujets = [] # Créer une liste vide. Nous pourrons stocker des choses dedans plus tard. 
+    for s in graph.objects(manifestation, DCTERMS.subject): # Utilise la méthode objects du graphe RDF pour récupérer tous les objets (nœuds) liés à la manifestation par la propriété DCTERMS.subject (qui représente le sujet d'une ressource en RDF).
+        label = graph.value(s, SKOS.prefLabel) # Récupère la valeur de la propriété SKOS.prefLabel (libellé préféré en SKOS, un vocabulaire utilisé pour les thésaurus) pour le nœud s.
+        sujets.append({"label": str(label), "uri": str(s)}) # Ajoute un dictionnaire contenant le lebl et l'URI, provenant du graph. 
+    return sujets # Retourne la liste sujets, qui contient tous les sujets Rameau associés à la manifestation, sous forme de dictionnaires avec leur libellé et leur URI.
 
 
 def get_gallica_urls(graph: Graph, manifestation: Node) -> list[str]:
-    """Extrait les liens Gallica associés à une manifestation"""
+    """
+    Extrait les sujets Rameau associés à une manifestation dans un graphe RDF.
+
+    Cette fonction parcourt un graphe RDF pour identifier les sujets Rameau liés à une manifestation donnée,
+    puis retourne une liste de dictionnaires contenant le libellé et l'URI de chaque sujet.
+
+    Args:
+        graph (Graph): Un graphe RDF (par exemple, un objet `rdflib.Graph`) contenant les données.
+        manifestation (Node): Un nœud RDF représentant une manifestation (par exemple, un livre, une ressource bibliographique).
+
+    Returns:
+        list[dict[str, str]]: Une liste de dictionnaires, où chaque dictionnaire contient :
+            - "label" (str): Le libellé du sujet Rameau (valeur de `SKOS.prefLabel`).
+            - "uri" (str): L'URI du sujet Rameau dans le graphe RDF.
+    """
     reproductions = []
     for link in graph.objects(manifestation, RDA.electronicReproduction):
         reproductions.append(str(link))
@@ -54,10 +70,7 @@ def get_gallica_urls(graph: Graph, manifestation: Node) -> list[str]:
 
 @st.cache_data # Décorateur qui fait de la mémorisation. Stocke les exécutions de la fonction pour que quand il recharge la page, il récuppère les informations stockées, si elles existent et évite d'avoir un traitement trop lourd en chargeant tout le script à chaque fois.
 def load_all_photos() -> dict[str, dict]:
-    """
-    Fusionne les informations que contiennent le fichier turtle avec les information du GeoJson dans un objet Python (dictionnaire). 
-    Chaque photo a son objet Python
-    """
+    # Fusionne les informations que contiennent le fichier turtle avec les information du GeoJson dans un objet Python (dictionnaire). Chaque photo a son objet Python
     turtle_files = list(DIR.glob("*.ttl"))
 
     all_photos_metadata = {} # Initialise un dictionnaire vide
@@ -97,7 +110,7 @@ def load_all_photos() -> dict[str, dict]:
 def build_folium_feature(location: dict, photo_title: str, photo_uri: str): 
     """Crée une feature Folium à partir du geojson de localisation d'une photo."""
     folium_feature = folium.GeoJson(location, tooltip=photo_title) # Créer un objet Folium à partir d'un GeoJson, en créer un feature. Tooltip : ce qui s'affichera quand on passera la souris. Ici le titre de la photo. 
-    folium_feature.data["properties"]["uri"] = photo_uri
+    folium_feature.data["properties"]["uri"] = photo_uri # folium_feature.data["properties"] : Accède aux propriétés de l'objet GeoJSON sous-jacent de la feature Folium. ["uri"] = photo_uri : Ajoute une nouvelle propriété uri aux propriétés de la feature, avec comme valeur l'URI ou l'URL de la photo (photo_uri). Cela permet d'associer la photo à la feature sur la carte.
     return folium_feature
 
 def add_locations_to_map(m: folium.Map, photos_metadata: dict[str, dict]):
@@ -126,7 +139,7 @@ DIR = Path("photographies_avec_themes")
 
 photos_metadata = load_all_photos()
 
-# print(json.dumps(photos_metadata, indent=2, ensure_ascii=False)) # Affiche le dictionnaire 
+# print(json.dumps(photos_metadata, indent=2, ensure_ascii=False)) # Affiche le dictionnaire. On l'a retiré pour avoir un résultat un peu plus propre. 
 
 
 # ---
@@ -135,14 +148,14 @@ photos_metadata = load_all_photos()
 
 def afficher_infobox(p):
    """Affiche les métadonnées dans un menu déroulant."""
-   with st.expander("Voir les métadonnées détaillées"):
+   with st.expander("Voir les métadonnées détaillées"): # Expander crée un menu déroulant
        st.write(f"**Titre :** {p['titre']}")
        st.write(f"**Date :** {p['date']}")
        st.write(f"**Description :** {p['description']}")
-       if p["catalogue"]:
+       if p["catalogue"]: # Si la clef a une valeur
            st.write(f"**Catalogue BnF :** [{p['catalogue']}]({p['catalogue']})")
-       for s in p["sujets"]:
-           st.write(f"**Sujet :** [{s['label']}]({s['uri']})")
+       for s in p["sujets"]: # Pour chaque sujet contenant une clef
+           st.write(f"**Sujet :** [{s['label']}]({s['uri']})") # Créer un lien
        for link in p["gallica_urls"]:
            st.write(f"**Numérisation :** [{link}]({link})")
 
@@ -163,23 +176,21 @@ map_container, iiif_container = st.columns([1, 1]) # Déclare les colonnes. st.c
 # Gestionnaire de contexte : Bloc de code dnas lequel, avec with on fait un appel de fonction avec un objet qui gère des ressources, cette ressource est accessible tant que l'on reste dans le bloc.
 # Streamlit propose cela pour gérer les composants. A chaque fois que l'on appelle une méthode st, elle s'applique à tout. Toutes les instructions Streamlit st.... déclarées à l'intérieur de ce contexte concerneront `map_container`, sans avoir besoin de le préciser à chaque appel !   
 with map_container:
-    # Une carte Folium centrée sur Paris. Coordonnées du centre. zoom_start = Zoom de départ. 
-    interactive_map = folium.Map(location=[48.8566, 2.3522], zoom_start=10)
+    interactive_map = folium.Map(location=[48.8566, 2.3522], zoom_start=10) # Une carte Folium centrée sur Paris. Coordonnées du centre. zoom_start = Zoom de départ. 
     add_locations_to_map(interactive_map, photos_metadata) # Ajoute toutes les photos à la carte. 
     # ... et on la transforme en composant Streamlit avec le plugin `st folium`. use_container_width : la carte prend la totalité de la taille de container parce qu'il est sur True. st folium créer le composant folium et un objet qui donne accès à toutes interactions crées sur la carte. 
     map_data = st_folium(interactive_map, use_container_width=True, height=800) # Ajouter comme composant de streamlit.
 
     selected_feature = map_data["last_active_drawing"] # Renvoie une feature folium que l'on va stocker. En l'occurence la dernière cliquée. 
     if selected_feature: # Si on a sélectionné une feature, si elle n'est pas None. 
-        selected_uri = selected_feature["properties"]["uri"] #Réccupère l'URI
+        selected_uri = selected_feature["properties"]["uri"] #Reccupère l'URI
         if selected_uri != st.session_state.selected_uri: # Si on a pas déjà l'image en mémoire.  
             print(f"Photo sélectionnée : {selected_uri}")
             st.session_state.selected_uri = selected_uri # Stocke dans la mémoire de l'application. 
             st.rerun() #Réexécute tous le fichier afin de retourner sur le "if" qui se demande si une photo est sélectionnée. 
 
     with iiif_container:
-        # Variable qui créer l'url iif grâce à la fonction. On utilise le "Gallica_urls du dictionnaire "photo" et la première numérisation "[O]". 
-        url_iiif = build_iiif_url(current_photo["gallica_urls"][0])
+        url_iiif = build_iiif_url(current_photo["gallica_urls"][0]) # Variable qui créer l'url iif grâce à la fonction. On utilise le "Gallica_urls du dictionnaire "photo" et la première numérisation "[O]". 
         # Fonction qui crée une instance de tify et en fait un composant streamlit
         iiif_viewer( 
             viewer="tify",
