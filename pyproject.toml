@@ -3,6 +3,11 @@ name = "tnah-2026-partie3"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "folium>=0.20.0",
     "geojson>=3.2.0",
     "geopy>=2.4.1",
+    "rdflib>=7.5.0",
+    "streamlit>=1.55.0",
+    "streamlit-folium>=0.26.2",
+    "streamlit-iiif-viewer>=0.0.3",
 ]
