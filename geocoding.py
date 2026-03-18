@@ -16,9 +16,9 @@ DIR = Path(__file__).parent / "photographies_avec_themes"
 json_files = list(DIR.glob("*.json"))
 
 # --- Initialisation du géocodeur
-geocoder = Nominatim(user_agent="tnah-équipe-2")
-limited_geocoder = RateLimiter(geocoder.geocode, min_delay_seconds=5)
-
+#Le constructeur Nominatim() instancie une représentation du géocodeur Nominatim. Il a le paramètre obligatoire "user-agent" qui est une chaine de caractère qui nous identifie auprès de l'API
+geocoder = Nominatim(user_agent="tnah-équipe-2") 
+limited_geocoder = RateLimiter(geocoder.geocode, min_delay_seconds=5) #Les requêtes envoyées sont séparées d'au moins 5 secondes.
 
 # --- Fonctions
 def read_json_file(file_path: Path) -> dict:
@@ -80,18 +80,19 @@ def build_geocoding_query(data: dict, level: str) -> str:
     #print(f"[{level}] 🔍 Query : {query}")
     #return query
 
-
 def geocode(query: str):
     """Exécute le géocodage de la requête et retourne le résultat."""
-    print(f"📍 Geocoding : {query}")
-    location = limited_geocoder(query)
+    print(f"📍 Geocoding : {query}") 
+    location = limited_geocoder(query) #Stocke le résultat. limited_geocode geocode la requête donnée en paramètre. 
     return location
 
+"""Création d'une feature"""
 def create_geojson_feature(location: Location, properties: dict) -> geojson.Feature:
     point = geojson.Point((location.longitude, location.latitude))
     feature = geojson.Feature(geometry=point, properties=properties)
     return feature
 
+"""Sauvegarde d'une feature dans un fichier GeoJson"""
 def save_geocoding(feature: geojson.Feature, input_json_file: Path) -> None:
     output_file = input_json_file.with_suffix(".geojson")
     with open(output_file, "w") as file:
@@ -129,22 +130,23 @@ def main():
                 location = geocode(query)
                 if location is not None:
                     print(f"[{level}] ✅ : {location}") # indique le succès
-                    properties = { # création d'un dictionnaire à partir des informations de la boucle
+                    properties = { # création d'un dictionnaire des propriétés d'une feature à partir des informations de la boucle
                         "extraction": data,
                         "query": query,
                         "level": level,
                         "response": location.raw,
                         "photo_id": json_file.stem,
                     }
+                    #Création et sauvegarde d'un objet Feature. 
                     feature = create_geojson_feature(location, properties) # création de la variable feature
                     save_geocoding(feature, json_file) # création du .geojson
+                    
                     features.append(feature) # ajout de la feature à la liste features
                     break # arrête la boucle
                 else : # s'il n'y a pas de résultats, indique l'échec
                     print(f"[{level}] ❌")
 
     # le code ci-dessous crée un fichier débug additionnant toutes les features
-
     debug_geojson_file = Path("debug_geocoding_results.geojson")
     feature_collection = geojson.FeatureCollection(features)
     with open(debug_geojson_file, "w") as file:
